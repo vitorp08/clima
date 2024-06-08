@@ -3,3 +3,40 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+.dados{
+    display: block;
+    max-width: 500px;
+    background-color: aqua;
+    margin: 40px auto;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 8px 8px 40px ;
+    
+}
+
+
+
+.condicao, .local-atual {
+    width: 50%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fontLarga{
+    font-size: 48px;
+}
+
+.fontMedia{
+    font-size: 32px;
+}
+
+.hideLoad{
+    display: none;
+}
+
